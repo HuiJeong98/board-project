@@ -1,0 +1,55 @@
+2023-05-25 16:44:07.636[info] app start
+2023-05-25 16:46:53.318[info] app start
+2023-05-25 16:48:29.939[info] app start
+2023-05-25 16:48:40.532[info] app start
+2023-05-25 16:48:45.775[info] app start
+2023-05-25 16:48:52.489[info] app start
+2023-05-25 16:49:39.974[error] This message is error
+2023-05-25 16:49:39.977[warn] This message is warn
+2023-05-25 16:49:39.978[info] This message is info
+2023-05-25 16:49:39.980[verbose] This message is verbose
+2023-05-25 16:49:39.983[debug] This message is debug
+2023-05-25 16:49:42.383[error] This message is error
+2023-05-25 16:49:42.384[warn] This message is warn
+2023-05-25 16:49:42.385[info] This message is info
+2023-05-25 16:49:42.385[verbose] This message is verbose
+2023-05-25 16:49:42.386[debug] This message is debug
+2023-05-25 16:49:51.059[error] This message is error
+2023-05-25 16:49:51.060[warn] This message is warn
+2023-05-25 16:49:51.060[info] This message is info
+2023-05-25 16:49:51.061[verbose] This message is verbose
+2023-05-25 16:49:51.061[debug] This message is debug
+2023-05-25 17:22:27.930[info] app start
+2023-05-25 17:25:07.817[info] app start
+2023-05-25 17:25:13.580[info] app start
+2023-05-25 17:27:04.246[info] app start
+2023-05-25 17:27:39.671[info] app start
+2023-05-25 17:28:29.375[info] app start
+2023-05-25 17:28:38.815[info] app start
+2023-05-25 17:29:54.993[info] app start
+2023-05-25 17:30:38.783[info] app start
+2023-05-25 17:30:47.427[info] app start
+2023-05-25 17:31:32.706[info] app start
+2023-05-25 17:33:25.744[info] app start
+2023-05-25 17:37:08.613[info] app start
+2023-05-25 17:38:10.566[info] (user.reg.params) {"name":"김개발","userid":"kim","password":"1","email":"kim@email.com","phone":"010-1234-5678"}
+2023-05-25 17:38:10.599[error] (userService.reg) SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432
+2023-05-25 17:40:09.311[info] app start
+2023-05-25 17:40:14.863[info] (user.reg.params) {"name":"김개발","userid":"kim","password":"1","email":"kim@email.com","phone":"010-1234-5678"}
+2023-05-25 17:40:14.919[error] (userService.reg) SequelizeAccessDeniedError: Access denied for user 'KHJ'@'localhost' (using password: YES)
+2023-05-25 17:42:41.017[info] app start
+2023-05-25 17:42:44.161[info] (user.reg.params) {"name":"김개발","userid":"kim","password":"1","email":"kim@email.com","phone":"010-1234-5678"}
+2023-05-25 17:42:44.219[error] (userService.reg) SequelizeAccessDeniedError: Access denied for user 'KHJ'@'localhost' (using password: YES)
+2023-05-25 17:42:47.188[info] (user.reg.params) {"name":"김개발","userid":"kim","password":"1","email":"kim@email.com","phone":"010-1234-5678"}
+2023-05-25 17:42:47.195[error] (userService.reg) SequelizeAccessDeniedError: Access denied for user 'KHJ'@'localhost' (using password: YES)
+2023-05-25 17:42:51.155[info] (user.reg.params) {"name":"김개발","userid":"kim","password":"1","email":"kim@email.com","phone":"010-1234-5678"}
+2023-05-25 17:42:51.169[error] (userService.reg) SequelizeAccessDeniedError: Access denied for user 'KHJ'@'localhost' (using password: YES)
+2023-05-25 17:43:52.104[info] app start
+2023-05-25 17:44:00.922[info] (user.reg.params) {"name":"김개발","userid":"kim","password":"1","email":"kim@email.com","phone":"010-1234-5678"}
+2023-05-25 17:44:00.991[error] (userService.reg) SequelizeConnectionError: Unknown database 'recipe_book'
+2023-05-25 17:48:08.474[info] app start
+2023-05-25 17:48:08.563[error] DB Connection fail Unknown database 'recipe_book'
+2023-05-25 17:51:13.095[info] (user.reg.params) {"name":"김개발","userid":"kim","password":"1","email":"kim@email.com","phone":"010-1234-5678"}
+2023-05-25 17:51:13.140[error] (userService.reg) SequelizeDatabaseError: Table 'recipe_book.users' doesn't exist
+2023-05-25 17:51:24.073[info] (user.reg.params) {"name":"김개발","userid":"kim","password":"1","email":"kim@email.com","phone":"010-1234-5678"}
+2023-05-25 17:51:24.090[error] (userService.reg) SequelizeDatabaseError: Table 'recipe_book.users' doesn't exist
